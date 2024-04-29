@@ -100,6 +100,18 @@ public class IPolicyServiceImpl implements IPolicyService {
 		
 		return 0;
 	}
+
+	@Override
+	public boolean findOne(int policyId) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void deleteById(int policyId) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 
 }

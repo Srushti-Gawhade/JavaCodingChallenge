@@ -54,12 +54,12 @@ public class UserController {
 			case 2: 
 				System.out.println("Enter User ID");
 				userService.deleteByid(sc.nextInt());
-				System.out.println("Artist record deleted..");				
+				System.out.println("User record deleted..");				
 				break; 
 			case 3: 
-				System.out.println("Enter Artist ID");
+				System.out.println("Enter User ID");
 				userService.softDeleteByid(sc.nextInt());
-				System.out.println("Artist record de-activated..");				
+				System.out.println("User record de-activated..");				
 				break; 
 			case 4: 	 
 				List<User> list = userService.findAll();
